@@ -1,0 +1,20 @@
+.footer{
+    background-color: #205691;
+    display: flex;
+    align-items: center;
+    border: solid red;
+    justify-content: space-between;
+    img{
+        border: solid;
+    }
+    h2{
+        border: solid;
+    }
+
+    div{
+        border: solid;
+        width: 12%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

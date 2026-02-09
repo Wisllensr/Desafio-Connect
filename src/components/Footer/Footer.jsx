@@ -1,9 +1,29 @@
+import Logo from "../../assets/logo.png"
+import Whatsapp from "../../assets/whatsapp.png"
+import Instagram from "../../assets/instagram.png"
+import Linkedin from "../../assets/linkedin.png"
+import styles from "./Footer.module.scss"
+
 function Footer() {
   return (
-    <>
-    
-    <h2> Olá, boa noite! </h2>
-    </>
+    <footer className={styles.footer}>
+
+      <img src={Logo} alt="" />
+
+      <h2>Connect</h2>
+
+      <p>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
+
+      <div>
+
+        <img src={Whatsapp} alt="" />
+        <img src={Instagram} alt="" />
+        <img src={Linkedin} alt="" />
+
+      </div>
+
+
+    </footer>
   )
 }
 export default Footer

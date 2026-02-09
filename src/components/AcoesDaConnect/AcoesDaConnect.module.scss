@@ -1,0 +1,63 @@
+.containerDeAcoes {
+  //background-color: red;
+}
+
+.boxTitulosAcoes {
+  //border: solid green;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+    color: #205691;
+  }
+  p {
+    font-size: 1.2rem;
+    width: 32%;
+    text-align: center;
+  }
+}
+
+.containerCardsDeAcoes {
+  //border: solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardsDeAcoes {
+  //border: solid;
+  width: 27%;
+  height: 35vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    height: 18vh;
+  }
+  h2{
+    color: #122F97;
+
+  }
+
+  p{
+    font-size: 1rem;
+    text-align: center;
+    width: 70%;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #205691;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+}
