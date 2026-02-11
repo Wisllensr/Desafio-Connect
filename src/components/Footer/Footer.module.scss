@@ -1,20 +1,62 @@
-.footer{
-    background-color: #205691;
-    display: flex;
-    align-items: center;
-    border: solid red;
-    justify-content: space-between;
-    img{
-        border: solid;
-    }
-    h2{
-        border: solid;
-    }
+.footer {
+  background-color: #205691;
+  display: flex;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: center;
+  color: #fff;
 
-    div{
-        border: solid;
-        width: 12%;
-        display: flex;
-        justify-content: space-around;
+  div {
+    //border: solid;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+        font-size: 2rem;
+        font-weight: 400;
+        
     }
+  }
+
+  p {
+    display: flex;
+    //border: solid;
+    height: 8vh;
+    width: 24%;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  nav {
+    //border: solid;
+    display: flex;
+    width: 14%;
+    justify-content: space-around;
+  }
+}
+
+// Responsiivo do Footer
+
+@media (min-width: 201px) and (max-width: 500px){
+
+ .footer {
+    flex-direction: column-reverse;
+    height: 35vh;
+    div {
+      width: 60%;
+      h2 {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+    }
+    p {
+      width: 90%;
+    }
+    nav {
+      width: 80%;
+    }
+  }
 }

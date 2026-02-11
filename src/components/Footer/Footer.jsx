@@ -7,20 +7,20 @@ import styles from "./Footer.module.scss"
 function Footer() {
   return (
     <footer className={styles.footer}>
-
+<div className={styles.primeiraCaixa}>
       <img src={Logo} alt="" />
 
       <h2>Connect</h2>
-
+</div>
       <p>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
 
-      <div>
+      <nav>
 
         <img src={Whatsapp} alt="" />
         <img src={Instagram} alt="" />
         <img src={Linkedin} alt="" />
 
-      </div>
+      </nav>
 
 
     </footer>
